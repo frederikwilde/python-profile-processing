@@ -25,4 +25,4 @@ one line of code:
 call = profile_processing.get_call_stats(f'path/to/profile.prof', 'function_of_interest')
 ```
 
-For more information have a look at the [demo notebook]().
+For more information have a look at the [demo notebook](https://github.com/frederikwilde/python-profile-processing/blob/main/demo/Python%20Profile%20Processing%20Demo.ipynb).
