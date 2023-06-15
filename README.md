@@ -2,6 +2,10 @@
 This package helps when we want to create multiple profiles and extract data from each of them.
 Profile stats is a simple wrapper around the built-in `pstats.Stats` class in Python.
 
+## Installation
+The package can be locally pip installed via `pip install -e path/to/python-profile-processing`.
+
+## Usage
 Just as with `pstats.Stats`, the wrapping class `ProfileStats` can be instantiated by simply passing
 the file path.
 
