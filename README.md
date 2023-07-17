@@ -20,8 +20,10 @@ profile.list_calls()
 # '<module>']
 ```
 
-The difference is you can search function calls with `search_calls()` and retrieve them with informative
-dictionary keys (instead of a simple tuple) using `get_call()`.
+Unlike the native `pstats.Stats` class, `profile_processing.ProfileStats` offers `search_calls()`, a method for
+searching all function calls recorded in the profile.
+Using `get_call()` one can retrieve specific calls, which are returned as a
+dictionary with informative key names, instead of a simple tuple.
 The convencience function `get_call_stats()` allows you to extract a function call from a profile in only
 one line of code:
 
